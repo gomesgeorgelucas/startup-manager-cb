@@ -105,7 +105,7 @@ cd caminho/para/o/diretorio/do/projeto
 	3.	Compile o Projeto:
 	•	Execute o seguinte comando:
 
-gcc src/*.c -Iinclude -o PIM_IV.exe
+gcc ./*.c -o PIM_IV.exe
 
 
 	4.	Execute o Programa:
