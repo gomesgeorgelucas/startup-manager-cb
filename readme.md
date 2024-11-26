@@ -39,47 +39,6 @@ Principais Arquivos
 	•	company_management.c e company_management.h: Atualização de dados de resíduos e custos.
 	•	company_reports.c e company_reports.h: Geração de relatórios detalhados.
 
-Executando o Projeto com Docker
-
-Pré-requisitos
-
-	1.	Instalar o Docker:
-	•	Baixe e instale o Docker Desktop no site oficial: Docker.
-	2.	Download do Projeto:
-	•	Faça o download do código fonte e extraia-o em um diretório de sua escolha.
-
-Etapas para Executar com Docker
-
-	1.	Abra o Terminal:
-	•	Use o terminal do Windows (Prompt de Comando, PowerShell ou Terminal do Docker).
-	2.	Navegue até o Diretório do Projeto:
-
-cd caminho/para/o/diretorio/do/projeto
-
-
-	3.	Construir e Iniciar o Contêiner:
-	•	Execute o seguinte comando:
-
-docker-compose up --build
-
-
-	4.	Acessar o Contêiner:
-	•	Para acessar o contêiner em execução, use:
-
-docker exec -it pim_iv /bin/bash
-
-
-	5.	Executar o Programa no Contêiner:
-	•	Dentro do contêiner, inicie o programa:
-
-./PIM_IV
-
-
-	6.	Parar o Contêiner:
-	•	Para parar o contêiner, use:
-
-docker-compose down
-
 Executando o Projeto no Windows 11 com MinGW (Linha de Comando)
 
 Pré-requisitos
