@@ -1,0 +1,46 @@
+# depslib dependency file v1.0
+1732582154 source:c:\users\glu\workspace\startup-manager\auth.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<stdbool.h>
+	"auth.h"
+
+1731467754 c:\users\glu\workspace\startup-manager\auth.h
+	<stdbool.h>
+
+1732583486 source:c:\users\glu\workspace\startup-manager\main.c
+	<stdio.h>
+	<string.h>
+	"auth.h"
+	"company.h"
+	"company_management.h"
+
+1732578908 c:\users\glu\workspace\startup-manager\company.h
+	<stdbool.h>
+
+1732582250 source:c:\users\glu\workspace\startup-manager\company.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"company.h"
+
+1732578907 c:\users\glu\workspace\startup-manager\company_management.h
+	"company.h"
+
+1732582625 source:c:\users\glu\workspace\startup-manager\company_management.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"company_management.h"
+
+1732582832 source:c:\users\glu\workspace\startup-manager\company_reports.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"company_reports.h"
+	"company_management.h"
+
+1732580778 c:\users\glu\workspace\startup-manager\company_reports.h
+	"company.h"
+
